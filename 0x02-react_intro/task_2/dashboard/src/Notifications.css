@@ -3,3 +3,9 @@
     border-color: rgb(0, 0, 0);
     padding-left: 1rem;
 }
+ul li[data-priority="default"] {
+  color: blue;
+}
+ul li[data-priority="urgent"] {
+  color: red;
+}
